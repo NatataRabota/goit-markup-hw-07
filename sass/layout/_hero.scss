@@ -21,7 +21,7 @@
     &-title {
         margin-bottom: 30px;
     
-        color: #FFFFFF;
+        color: var(--first-color);
     
         font-family: var(--main-font);
         font-weight: 900;
@@ -46,6 +46,6 @@
     border: transparent;
     cursor: pointer;
     padding: 10px 32px;
-    color: #FFFFFF;
+    color: var(--first-color);
     background-color: var(--accent-color);
 }

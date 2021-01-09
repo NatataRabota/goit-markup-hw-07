@@ -28,7 +28,7 @@
             font-size: 14px;
             line-height: 1.142;
             letter-spacing: 0.03em;
-            color: #FFFFFF;
+            color: var(--first-color);
 
             margin-bottom: 20px;
             padding: 10px 0px;
@@ -48,7 +48,7 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--first-color);
 }
 
 .address-item:not(:last-child) {
@@ -75,7 +75,7 @@
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--first-color);
 
     padding: 10px 0px;
     margin-bottom: 20px;
@@ -100,7 +100,7 @@
         letter-spacing: 0.06em;
         cursor: pointer;
 
-        color: #FFFFFF;
+        color: var(--first-color);
 
         font-family: var(--main-font);
         font-weight: 700;

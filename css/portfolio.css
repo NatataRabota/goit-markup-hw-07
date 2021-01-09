@@ -3,6 +3,7 @@
   --secondary-font: 'Raleway', sans-serif;
   --card-set: 30px;
   --accent-color: #2196F3;
+  --first-color: #ffffff;
 }
 
 body {
@@ -76,7 +77,7 @@ img {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--first-color);
 }
 
 .menu-list-link {
@@ -115,7 +116,7 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  background-color: #FFFFFF;
+  background-color: var(--first-color);
   border-radius: 50%;
   transition: background-color 250ms linear;
 }
@@ -135,7 +136,7 @@ img {
 .social-list_link:focus .social-list_icon,
 .social-footer_link:hover .social-list_icon,
 .social-footer_link:focus .social-list_icon {
-  fill: #FFFFFF;
+  fill: var(--first-color);
 }
 
 .social-footer_link {
@@ -144,7 +145,7 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  color: #FFFFFF;
+  color: var --first-color;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms linear;
@@ -193,7 +194,7 @@ img {
 }
 
 .filter-btn:hover, .filter-btn:focus {
-  color: #FFFFFF;
+  color: var(--first-color);
   background-color: var(--accent-color);
 }
 
@@ -317,7 +318,7 @@ img {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--first-color);
   margin-bottom: 20px;
   padding: 10px 0px;
 }
@@ -334,7 +335,7 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--first-color);
 }
 
 .address-item:not(:last-child) {
@@ -361,7 +362,7 @@ img {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--first-color);
   padding: 10px 0px;
   margin-bottom: 20px;
 }
@@ -385,7 +386,7 @@ img {
   border-radius: 4px;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #FFFFFF;
+  color: var(--first-color);
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -435,7 +436,7 @@ img {
   display: block;
   padding: 20px 24px;
   max-width: 370px;
-  background: #FFFFFF;
+  background: var(--first-color);
   border: 1px solid #EEEEEE;
 }
 
@@ -479,7 +480,7 @@ img {
   line-height: 1.56;
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
-  color: #FFFFFF;
+  color: var(--first-color);
   cursor: pointer;
   transition: all 250ms linear;
   transform: translateY(100%);

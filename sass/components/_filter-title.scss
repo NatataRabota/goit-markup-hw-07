@@ -38,7 +38,7 @@
 
     &:hover,
     &:focus {
-        color: #FFFFFF;
+        color: var(--first-color);
         background-color: var(--accent-color);
     }
 }
