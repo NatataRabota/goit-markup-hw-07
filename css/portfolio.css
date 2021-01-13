@@ -54,6 +54,14 @@ img {
   margin: auto;
 }
 
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/roboto-regular.woff) format("woff"), url(../fonts/roboto-regular.woff2) format("woff2");
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -197,6 +205,7 @@ img {
 .filter-btn:hover, .filter-btn:focus {
   color: var(--first-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .header {
